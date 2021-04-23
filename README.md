@@ -1,6 +1,6 @@
 # hust
 
-> hi rust.
+> hust is a demo of learning Rust, after then we'll expand it to a big guy, please hold on.
 
 ## Install & Run Rust
 

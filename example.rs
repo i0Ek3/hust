@@ -18,6 +18,26 @@ fn h(hi: String) {
     println!("{}", hi);
 }
 
+use std::io::stdin;
+fn inputer() {
+    let mut strs = String::new();
+    stdin().read_line(&mut strs).expect("Cannot to read line.");
+    println!("The input content is: {}", strs);
+}
+
+use std::fs;
+fn reader(filepath: String) {
+    let file = fs::read_to_string(filepath).unwrap();
+    println!("{}", file)
+}
+
+use std::io::prelude::*;
+use std::fs::File;
+fn writer(filepath: String, content: String) {
+    let mut file = File::create(filepath).unwrap();
+    file::write(content).unwrap();
+}
+
 // use keyword for module
 use crate::hust_mod::hust::_1::_1f;
 use crate::hust_mod::hust::_1::_1f as f1;
@@ -41,4 +61,17 @@ fn main() {
     println!("{}", f1());
 
     println!("{}", (PI * 4.0 / 3.0).cos());
+
+    // cmd args
+    let args = std::env::args();
+    for arg in args {
+        println!("{}", arg);
+    }
+
+    // input string
+    println!("Please input something:");
+    inputer();
+
+    // read string from file
+    reader("./hust".to_string());
 }
