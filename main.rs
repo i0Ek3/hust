@@ -1,5 +1,5 @@
 mod hust;
-use hust::Hust;
+use crate::hust::Hust;
 
 fn main() {
     let obj = Hust::new("Hi hust".to_string());
