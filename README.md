@@ -31,6 +31,7 @@ Also you can write your own Rust code on [this playground](https://play.rust-lan
     - `use` keyword
     - `::`
     - `mod module_name`
+- [How to disable warning message?](https://stackoverflow.com/questions/25877285/how-to-disable-unused-code-warnings-in-rust)
 
 ## Contributing
 
@@ -38,4 +39,4 @@ PRs and Issues are also welcome.
 
 ## Credit
 
-Runboo.com and GitHub? Yes!
+Runboo.com and GitHub/MicroSoft? Yes!

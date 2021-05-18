@@ -2,14 +2,15 @@
 // use struct or enum to represents class
 //
 
+//#[allow(dead_code)]
 pub struct Hust {
-    field: String,
+    _field: String,
 }
 
 impl Hust {
     pub fn new(str: String) -> Hust {
         Hust {
-            field: str
+            _field: str
         }
     }
 
