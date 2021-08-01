@@ -6,6 +6,7 @@
 
 Well, first stage hust will be a demo to learning basic rust knowledge. In the second one, hust will expand to big guy which suport some features to help people to do funny stuffs, I just don't know yet what it should like be, but one thing I know is hust will be useful and incredible. In the last stage, hust will be a known library to build things easily or not, but you guys got one thing: hust will be fun!
 
+
 ## Install & Run Rust
 
 - `brew install rust` // for macOS
@@ -15,6 +16,9 @@ Well, first stage hust will be a demo to learning basic rust knowledge. In the s
 - `cargo init` 
 - `cargo build`
 - `cargo run`
+
+
+## Playground
 
 Also you can write your own Rust code on [this playground](https://play.rust-lang.org).
 
