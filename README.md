@@ -43,4 +43,7 @@ PRs and Issues are also welcome.
 
 ## Credit
 
-Runboo.com and GitHub/MicroSoft? Yes!
+- [https://course.rs](https://course.rs)
+- [Rust By Example](https://rustwiki.org/zh-CN/rust-by-example/index.html)
+- [Microsoft: Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/)
+- [https://geektutu.com/post/quick-rust.html](https://geektutu.com/post/quick-rust.html)
